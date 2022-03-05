@@ -1,0 +1,51 @@
+.container{
+    margin: 0 100px;
+}
+h1,a, .title-discreption, h2, footer{
+    font-family: sans-serif;
+}
+/*Header*/
+header{
+    margin-bottom: 100px;
+}
+header h1{
+    text-align: center;
+}
+nav{
+    width: 75%;
+    margin-left: 80px;
+}
+nav a{
+    color: blue;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav .the-fourth-a{
+    float: right;
+}
+
+/*Main*/
+.article-content{
+    width: 65%;
+    margin-right: 85px;
+    display: inline-block;
+}
+.aside-content{
+    display: inline-block;
+    width: 15%;
+    vertical-align: top;
+}
+.title-discreption{
+    font-weight: bold;
+    font-size: 13px;
+}
+.aside-content img{
+    display: block;
+    margin: 10px 0px;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
