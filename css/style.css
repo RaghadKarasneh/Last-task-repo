@@ -44,8 +44,31 @@ nav .the-fourth-a{
     display: block;
     margin: 10px 0px;
 }
+footer .icons{
+    display: inline-block;
+    border-right: 1px solid gray;
+    padding-right: 50px;
+}
+.icons a{
+    padding: 30px 15px;
+}
+.icons .fa-facebook-square{
+    color:#1877f2;
+}
+.icons .fa-twitter-square{
+    color: #1da1f2
+}
+.icons .fa-linkedin{
+    color: #0077b5;
+}
+.icons .fa-instagram{
+    color: #fd1d1d;
+}
 footer p{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    position: relative;
+    left: 35%;
+    display: inline-block;
 }
